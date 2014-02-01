@@ -1,0 +1,2 @@
+<?php if (isset($_GET['goto'])){echo "?goto=".$_GET['goto']."&";}else{echo "?";}?>
+print_r($_REQUEST);

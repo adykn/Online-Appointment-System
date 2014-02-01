@@ -1,0 +1,9 @@
+<?php 
+ob_start();
+session_start();
+session_destroy();
+$_SESSION['LoginId']="";
+$_SESSION['PassCode']="";
+$_SESSION['Level']="";
+header("Location:index.php?Msg=Log+Out+Successully");
+?>
